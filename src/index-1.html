@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Susțin Security Espresso</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="se.css">
+    <style type="text/css">
+        #preview {
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-8 offset-md-2">
+                <h1 class="text-center">#SusținSecurityEspresso</h1>
+            </div>
+        </div>
+    </div>
+
+    <input type="file" id="upload">
+    <img src="#" id="preview">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="dist/bundle.js"></script>
+    <script type="text/javascript">
+        var upload  = document.getElementById('upload');
+        var preview = document.getElementById('preview');
+        setupWM(upload, preview);
+    </script>
+</body>
+</html>
